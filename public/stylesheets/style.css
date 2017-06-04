@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*
+  ===============================
+  Custom Styles
+  ===============================
+*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #333555;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ===============================
+  Header
+  ===============================
+*/
+
+h1 {
+  color: #ffcc00;
+  /*font: 100 50\5px/75px "Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 50px;
+  font-style: italic;
+  left: 62px;
+  position: relative;
+  vertical-align: middle;
+  z-index: 3;
+  text-shadow: 3px 3px 5px black;
+}
+
+.emphasis {
+  color: #fff;
+  font-size: 120px;
+  left: 90px;
+  margin-top: 90px;
+
+}
+
+.container {
+    height: 100vh;
+}
+
+.lead_col {
+    width: 25%;
+    height: 100%;
+    color: #fff;
+    /*padding: 2%;*/  
+}
+
+.lead {
+
+    font-size: 44px !important;
+    line-height: 48px !important;
+    font-family: Nimbus-Sans-Condensed !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+
+}
+
+.lead_centered {
+    padding-top: 32vh;
+    padding-bottom: 37vh;
+}
+
+.grid {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.img-col {
+    float: left;
+    width: 33.33333%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#bird_one {
+    /*background-image: url(assets/images/gouldian_finch.jpg);*/
+    /*background-image: url(../images/red_lory.jpg);*/
+    background-image: url(../images/silver_breasted_broadbill.jpg);     
+}
+
+#bird_two {
+    background-image: url(../images/gouldian_finch.jpg);
+    /*background-image: url(../images/cedar_waxwing.jpg);*/
+    /*background-image: url(assets/images/red_lory.jpg);*/
+    /*background-image: url(assets/images/silver_breasted_broadbill.jpg);    */
+}
+
+#bird_three {
+  /*background-image: url(../images/gouldian_finch.jpg);*/
+    background-image: url(../images/red_lory.jpg);
+    /*background-image: url(../images/cedar_waxwing.jpg);*/
+    /*background-image: url(../images/silver_breasted_broadbill.jpg);     */
+}
+
+.row {
+  background-color: #eee;
+  width: 100%;
+}
+
+.group {
+  margin: 0 auto;
+  width: 960px;
+}
+
+
+/*
+  =============================
+  Footer
+  =============================
+*/
+
+
+footer {
+  background-color: #222777;
+  width: 100%;
+  height: 200px;
+}
+
+.primary-footer {
+
+  color: #eee;
+  font-size: 14px;
+  padding-top: 120px;
+  padding-bottom: 44px;
+}
+
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
